@@ -1,0 +1,37 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.header-contents {
+    text-align: center; /* Center text within .header-contents */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+img {
+    margin-right: -300px; /* Adjust as needed */
+}
+
+.header h2 {
+    margin: 0; /* Reset margin */
+}
+
+button {
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 1em; /* Adjust font size */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Hover background color */
+  }

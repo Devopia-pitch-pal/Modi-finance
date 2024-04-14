@@ -1,0 +1,59 @@
+.signin-container {
+    background-image: url("https://i.pinimg.com/originals/3e/de/93/3ede93303d5e698b0afdc05f0fdb4169.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100vw; /* Cover full viewport width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 25px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #fff; /* Ensure card background is white */
+}
+
+/* Other styles remain unchanged */
+
+
+.mb-4{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+#myEmail{
+    margin: auto;
+}
+.logo{
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+
+#myPwd{
+    margin-top:1rem;
+}
+.card{
+    border-radius: 25px;
+    height: 50%;
+    width: 30%;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+h3 .mb-3,.fw-normal{
+    text-align: center;
+}
+.m{
+    text-align: center;
+}

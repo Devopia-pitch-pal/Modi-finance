@@ -1,0 +1,62 @@
+/* Ensure the Navbar container is flex and items are aligned properly */
+.navbar {
+  display: flex;
+  align-items: center; /* Centers the logo vertically */
+  justify-content: space-between; /* Separates items to each end */
+  background-color: #f8f9fa; /* Light gray background color */
+  padding: 0.5rem 2rem; /* Adjust padding to give space around items */
+}
+
+/* Styling for the logo inside the navbar */
+.logo {
+  height: 100px; /* Adjust the height of the logo */
+  width: auto; /* Maintain the aspect ratio of the logo */
+  margin-right: 1rem; /* Adds margin to the right of the logo */
+}
+
+/* Adjustments to the navbar toggler to align with new navbar styling */
+.navbar-toggler {
+  border: none; /* Removes border from the toggler if present */
+}
+
+/* Maintain the style for the rest of the navbar components */
+.navbar-nav {
+  flex-grow: 1; /* Allows nav items to use available space */
+  justify-content: flex-end; /* Aligns nav items to the right */
+}
+
+.navbar-nav .nav-link {
+  color: #343a40; /* Dark color for the links */
+  font-size: 1rem; /* Font size for the links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Blue color for the links on hover */
+}
+
+/* Enhancing the dropdown menu styling */
+.dropdown-menu {
+  background-color: #f8f9fa; /* Light gray background color for the dropdown menu */
+}
+
+.dropdown-item {
+  color: #343a40; /* Dark color for the dropdown items */
+}
+
+.dropdown-item:hover {
+  background-color: #007bff; /* Blue background color for the dropdown items on hover */
+  color: #fff; /* White color for the dropdown items on hover */
+}
+
+/* Styling for search form and button in navbar */
+.form-inline .form-control {
+  width: auto; /* Auto width for the search input */
+  margin-right: 4px; /* Adjusted margin for better alignment */
+}
+
+.btn {
+/* Smaller padding */
+  font-size: 0.8rem; /* Smaller font size */
+  border-radius: 20px; /* Smooth border radius */
+}
+

@@ -1,0 +1,35 @@
+.page-footer {
+  padding-top: 40px;
+  background-color: #333;
+  color: #fff;
+}
+
+.page-footer h5 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.page-footer p {
+  color: #ccc;
+}
+
+.page-footer ul li {
+  margin-bottom: 10px;
+}
+
+.page-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  color: #ccc;
+}
+
+.page-footer .container-fluid {
+  padding-bottom: 20px;
+}
+
+.page-footer .text-center.py-3 {
+  background-color: #444;
+}

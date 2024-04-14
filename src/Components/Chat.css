@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff; /* Set to white */
+    /* Other styles remain the same */
+}
+
+textarea {
+    width: 80%; /* Responsive width */
+    height: 150px; /* Enough space to type a detailed question */
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8; /* Light grey to differentiate the textarea */
+    resize: none; /* Disable resizing */
+    font-size: 16px; /* Larger font for better readability */
+}
+
+button {
+    width: 200px; /* Fixed width */
+    padding: 10px;
+    font-size: 18px; /* Larger font size for readability */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #4179b0; /* Initial blue color */
+}
+
+button:hover {
+    background-color: #346392; /* Darker shade on hover */
+}
+
+pre {
+    width: 80%; /* Match textarea width */
+    padding: 20px;
+    background-color: #fff; /* Ensure background is white */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow-x: auto; /* Allows scrolling horizontally if needed */
+    font-family: 'Courier New', Courier, monospace; /* Makes it easier to distinguish text */
+}

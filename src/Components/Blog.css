@@ -1,0 +1,141 @@
+/* General Container Styles */
+.blog-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.blog-header h1 {
+    text-align: center;
+    color: #1e40af;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout for Articles */
+.articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual Article Card Styling */
+.article-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Images within Article Cards */
+.article-card img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Card Title Styling */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Card Text Styling */
+.card-text {
+    font-size: 1rem;
+}
+
+/* Responsive Adjustments for Smaller Screens */
+@media (max-width: 768px) {
+    .articles {
+        grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    }
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+/* Interactive Chart Section Styles */
+.interactive-chart {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f4f4f8;
+    border-radius: 10px;
+}
+
+.chart-placeholder {
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-placeholder img {
+    width: 325px;
+    height: 325px;
+    margin-right: 10px;
+}
+
+/* Newsletter Section Styles */
+.newsletter {
+    background: #e1e4e8;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
